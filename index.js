@@ -36,6 +36,7 @@ function game() {
   let computerWins = 0;
 
   for (let i = 0; i < NUMROUNDS; i++) {
+    // randomly select both player and computer inputs
     const computerSelection = getComputerChoice();
     const playerSelection = getComputerChoice();
 
